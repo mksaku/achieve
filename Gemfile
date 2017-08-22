@@ -45,4 +45,5 @@ end
 
 gem 'twitter-bootstrap-rails'
 gem 'jquery-turbolinks'
-gem 'activeresource' 
+gem 'activeresource'
+gem 'rails_12factor', group: :production
