@@ -1,0 +1,7 @@
+<h1>ポエム一覧</h1>
+<% @poems.each do |poem| %>
+  <div class="row">
+    <h4><strong>title:<%= poem.title %></strong></h4>
+    <h4><strong>content:<%= poem.content %></strong></h4>
+      <%= link_to "詳細", poem, class: 'btn btn-default btn-sm'  %>
+<% end %>
